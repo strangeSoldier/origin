@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - YCNetworking (0.1.0):
+    - SDWebImage
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YCNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  YCNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  YCNetworking: 2749b0c1c8022427ba36dac10c61c11295ba176f
+
+PODFILE CHECKSUM: 106fa0e1afcbdf1cbd1a41843d92b7c4aedba2d6
+
+COCOAPODS: 1.9.3
